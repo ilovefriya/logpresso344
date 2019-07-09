@@ -1,6 +1,8 @@
 FROM centos:7.4.1708
 
 RUN mkdir -p /home/logpresso
+RUN mkdir -p /home/logpresso/data
+
 ADD ./package/jdk8u181-jemalloc4.linux.tar.gz /home/logpresso/jdk
 ADD ./package/logpresso-server_344-linux-32_64bit.tar.gz /home/logpresso
 
