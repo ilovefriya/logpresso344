@@ -1,2 +1,2 @@
-logpresso-server_344-linux-32_64bit.tar.gz filter=lfs diff=lfs merge=lfs -text
-jdk8u181-jemalloc4.linux.tar.gz filter=lfs diff=lfs merge=lfs -text
+logpresso-server_344-linux-32_64bit.tar.gz filter=lfs diff=lfs merge=lfs -binary
+jdk8u181-jemalloc4.linux.tar.gz filter=lfs diff=lfs merge=lfs -binary
