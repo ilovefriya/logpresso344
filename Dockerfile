@@ -9,4 +9,4 @@ EXPOSE 8888 7022
 
 #WORKDIR /home/logpresso/server
 #RUN bash -c "sh ./logpresso.sh & sleep 5 && tail -F /dev/null"
-CMD nohup /home/logpresso/server/logpresso.sh & sleep infinity
+#CMD nohup /home/logpresso/server/logpresso.sh & sleep infinity
