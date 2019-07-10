@@ -1,4 +1,4 @@
-FROM centos:lastest
+FROM centos:latest
 
 RUN mkdir -p /home/logpresso /home/logpresso/data
 
